@@ -1,5 +1,5 @@
 {
-  "name": "aws-cdk-proj2",
+  "name": "aws-cdk-rest-api",
   "version": "0.1.0",
   "scripts": {
     "build": "tsc",
