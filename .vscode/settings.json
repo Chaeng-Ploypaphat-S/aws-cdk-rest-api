@@ -1,0 +1,11 @@
+{
+    "serverlessConsole.services": [
+        {
+            "type": "dynamodb",
+            "title": "AwsCdkRestApiStack-quotestableE6688F8F-8VK73IIRKUY9",
+            "tableName": "AwsCdkRestApiStack-quotestableE6688F8F-8VK73IIRKUY9",
+            "awsProfile": "chaeng",
+            "region": "us-west-2"
+        }
+    ]
+}

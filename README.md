@@ -9,15 +9,9 @@ Hands-on AWS CDK learning repository.
 - Developed hands-on projects focused on scalable cloud architectures, automation, and event-driven workflows
 - Strengthened understanding of AWS infrastructure provisioning, monitoring, and deployment best practices
 
-✅ Tech
+✅ Learning
 - AWS CDK
-- AWS CloudFormation
-- TypeScript
-- Node.js
-- Serverless Architecture
-- Infrastructure as Code (IaC)
 - AWS Lambda
-- Amazon EC2
 - DynamoDB
 - API Gateway
-- CloudWatch
+- REST API
