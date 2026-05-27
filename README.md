@@ -15,3 +15,49 @@ Hands-on AWS CDK learning repository.
 - DynamoDB
 - API Gateway
 - REST API
+
+---
+
+## Getting Started
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18+)
+- [AWS CLI](https://aws.amazon.com/cli/) configured with credentials (`aws configure`)
+- [AWS CDK CLI](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html) installed globally
+
+```bash
+npm install -g aws-cdk
+```
+
+### Setup
+
+1. Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/Chaeng-Ploypaphat-S/aws-cdk-rest-api.git
+cd aws-cdk-rest-api
+npm install
+```
+
+2. Bootstrap your AWS environment (only needed once per account/region):
+
+```bash
+cdk bootstrap
+```
+
+3. Build and deploy the stack:
+
+```bash
+npm run build
+cdk deploy
+```
+
+The deploy output will include the API Gateway endpoint URL.
+
+### Tear Down
+
+To avoid ongoing AWS charges, destroy the stack when done:
+
+```bash
+cdk destroy
+```
